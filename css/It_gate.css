@@ -1,0 +1,30 @@
+ul
+{
+    list-style-type: none;
+    background-color: #555;
+    overflow:  hidden;
+    margin:  0px;
+    padding: 0px;
+
+}
+li
+{
+    float: left;
+
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align:  center;
+    padding:  0px 70px;
+    text-decoration: none;
+
+}
+li a:hover
+{
+    background-color: #111;
+    color:white;
+    
+}
+/* for It-Gate.HTML */

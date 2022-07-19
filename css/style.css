@@ -1,0 +1,286 @@
+@font-face
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: font_2 ;
+    src: url('../fonts/Anton-Regular.ttf');
+}
+/* css of pag.html */
+#intro
+{
+    color: green;
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    font-size: 50px;
+    
+    
+
+}
+ul
+{
+    list-style-type: none;
+    overflow:  hidden;
+    margin:  0px;
+    padding: 0px;
+
+}
+li
+{
+    float: left;
+
+}
+li a
+{
+    display: block;
+    color: rgb(0, 110, 255);
+    text-align:  center;
+    padding:  0px 70px;
+    text-decoration: none;
+
+}
+li a:hover
+{
+    
+    color: white;
+    
+}
+
+video
+{
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.subject
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    font-size: 35px;
+    color: blue;
+    text-transform:capitalize;
+    
+}
+.paragraph
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height:2;
+    
+    
+}
+.unlist
+{
+    clear:both;
+}
+.image
+{
+    margin-left: 475px;    
+}
+footer
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    color:red;
+    font-size: 20px;
+    clear:both;
+}
+iframe
+{
+    clear:both;
+    margin-left: 300px;
+    
+}
+/*css for singin.HTML */
+form
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    font-size:20px;
+    color:white;
+}
+#log_in
+{
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    font-size: 60px;
+    color:goldenrod;
+
+}
+
+
+
+
+
+
+.par
+{
+    font-size : 80px;
+    font-family: font_1;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+#arabic_tag
+{
+    direction: rtl;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+#arabic_wazn
+{
+    text-align : justify;
+    line-height: 2;
+    letter-spacing: 5px;
+    text-indent: 200px;
+    text-transform: capitalize;
+    border : 1px solid red;
+    width: 30%;
+    height: 200px;
+    overflow: scroll;
+    padding: 30px;
+    background:rgb(0, 77, 128);
+    
+}
+#sora
+{
+    text-align: center;
+}
+#no
+{
+    font-family: font_2;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+    font-size: 90px;
+    text-decoration: line-through;
+    color: rgb(00, 50, 0);
+    margin: 150px;
+    /*
+    border-bottom: 5px solid yellowgreen;
+    border-top: 25px dashed yellowgreen;
+    border-left: 10px dotted black;
+    border-right: 20px double red;
+    */
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 20px;
+    outline : 30px solid red;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#profile_pic
+{
+    width: 400px;
+    height: 400px ;
+    border-radius: 30%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+table , tr , td , th
+{
+    border:2px solid red;
+    width:500px;
+}
+table
+{
+    border-collapse: collapse;
+}
+body
+{
+    
+   background-image: url('../allec-gomes-vVcm0OLBCZM-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-attachment:scroll;
+    background-size: cover;
+    cursor: grab; 
+}
+/* for common HTML */    
+nav
+{
+    font-size: 20px;
+    font-style: oblique;
+    color: goldenrod;
+    font-weight:bolder;
+    font-variant:unset;
+    font-family: font_1;
+    src: url('../fonts/UbuntuCondensed-Regular.ttf');
+}
+#boxone
+{
+    width: 200px;
+    padding: 20px;
+    background: #5D5DE2;
+    margin: 5px;
+    position: relative;
+    right: 0px;
+    top: 50;
+    z-index: +1
+}
+#boxtwo
+{
+    width: 200px;
+    padding: 20px;
+    background: #e25d5d;
+    margin: 5px;
+    
+}
+.nnn
+{
+    width: 100px;
+    height: 100px;
+    float:  left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+#clean
+{
+    clear: both;
+    text-shadow: 2px 2px 10px red;
+}
+#cont
+{
+    width: 600px;
+    background:red;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    display:inline;
+    opacity: 0.5;
+}
+#cont_par
+{
+float: right;
+clear: both;
+display: block;
+}
+/*#list
+{
+    list-style-type: circle;
+}*/
+
+#list
+{
+    list-style:none;
+    clear:both
+}
+.div_hover
+{
+    width: 200px;
+    color: blue;
+    padding: 30px;
+    background: blue;
+}
+.div_hover:hover
+{
+    width: 600px;
+    color:yellow;
+    padding: 100px;
+    font-size: 50px
+}

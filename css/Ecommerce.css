@@ -1,0 +1,14 @@
+.repet
+{
+    width: 20%;
+    float: left;
+    margin: 1%;
+    border: 1px solid blue;
+    padding: 1%;
+    text-align: center;
+
+}
+.repet img
+{
+    width: 100%;
+}
